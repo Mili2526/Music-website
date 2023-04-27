@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/3b23696a5a.js" crossorigin="anonymous"></script>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="w-[100%] h-[100vh] bg-slate-900">
+      <div class="flex">
+        <div class="menu_side w-[25%] h-[85vh] shadow-2xl pl-5">
+          <p class="text-white text-xl mb-6 p-2">Playlist</p>
+          <div class="icon flex space-x-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="20"
+              height="20"
+              viewBox="0,0,255.99663,255.99663"
+              style="fill: #000000"
+            >
+              <g
+                fill="#28c6f6"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <g transform="scale(10.66667,10.66667)">
+                  <path
+                    d="M19.6875,2l-11,1.5c-1,0.10156 -1.6875,1 -1.6875,2v10.28125c-0.46094,-0.08203 -0.96094,-0.08203 -1.5,0.03125c-1.89844,0.5 -2.5,2.17578 -2.5,2.875c0,1.69922 1.60156,2.71875 2.5,2.21875c1.89844,-0.5 2.5,-2.20703 2.5,-2.90625v-8.59375l11,-1.46875v6.78125c-0.46094,-0.08203 -0.96094,-0.04687 -1.5,0.09375c-1.89844,0.5 -2.5,2.17578 -2.5,2.875c0,1.69922 1.60156,2.71875 2.5,2.21875c1.89844,-0.5 2.5,-2.20703 2.5,-2.90625v-13c0,-1.19922 -1.11328,-2.10156 -2.3125,-2z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+            <p class="text-[#28c6f6] cursor-pointer pb-2">Playlist</p>
+          </div>
+          <p class="last_played text-white pl-8 cursor-pointer text-sm pb-2">
+            Last Played
+          </p>
+          <p class="recommended text-white pl-8 cursor-pointer text-sm pb-2">
+            Recommended
+          </p>
+
+          <div class="pt-2 flex justify-between pr-2">
+            <div class="flex space-x-2">
+              <div><img src="./img/1.jpg" class="w-7 h-8 pt-1" /></div>
+              <div>
+                <p class="text-white text-[12px]">On My Way</p>
+                <p class="text-[10px] opacity-50 text-white">Alan Walker</p>
+              </div>
+            </div>
+            <i
+              class="fa-regular fa-circle-play pt-2 text-xl cursor-pointer audio1 "
+              style="color: #ffffff"
+            ></i>
+          </div>
+
+          <div class="pt-2 flex justify-between pr-2">
+            <div class="flex space-x-2">
+              <div><img src="./img/2.jpg" class="w-7 h-8 pt-1" /></div>
+              <div>
+                <p class="text-white text-[12px]">Fade</p>
+                <p class="text-[10px] opacity-50 text-white">Alan Walker</p>
+              </div>
+            </div>
+            <i
+              class="fa-regular fa-circle-play pt-2 text-xl cursor-pointer audio2"
+              style="color: #ffffff"
+            ></i>
+          </div>
+          <div class="pt-2 flex justify-between pr-2">
+            <div class="flex space-x-2">
+              <div><img src="./img/3.jpg" class="w-7 h-8 pt-1" /></div>
+              <div>
+                <p class="text-white text-[12px]">Cartoon</p>
+                <p class="text-[10px] opacity-50 text-white">Daniel Levi</p>
+              </div>
+            </div>
+            <i
+              class="fa-regular fa-circle-play pt-2 text-xl cursor-pointer audio3"
+              style="color: #ffffff"
+            ></i>
+          </div>
+
+          <div class="pt-2 flex justify-between pr-2">
+            <div class="flex space-x-2">
+              <div><img src="./img/4.jpg" class="w-7 h-8 pt-1" /></div>
+              <div>
+                <p class="text-white text-[12px]">Warriyo Martals</p>
+                <p class="text-[10px] opacity-50 text-white">Mortals</p>
+              </div>
+            </div>
+            <i
+              class="fa-regular fa-circle-play pt-2 text-xl cursor-pointer audio4"
+              style="color: #ffffff"
+            ></i>
+          </div>
+
+          <div class="pt-2 flex justify-between pr-2">
+            <div class="flex space-x-2">
+              <div><img src="./img/5.jpg" class="w-7 h-8 pt-1" /></div>
+              <div>
+                <p class="text-white text-[12px]">Etrugual-Gazi</p>
+                <p class="text-[10px] opacity-50 text-white">Etrugual</p>
+              </div>
+            </div>
+            <i
+              class="fa-regular fa-circle-play pt-2 text-xl cursor-pointer audio5"
+              style="color: #ffffff"
+            ></i>
+          </div>
+
+          <div class="pt-2 flex justify-between pr-2">
+            <div class="flex space-x-2">
+              <div><img src="./img/6.jpg" class="w-7 h-8 pt-1" /></div>
+              <div>
+                <p class="text-white text-[12px]">Electronic Music</p>
+                <p class="text-[10px] opacity-50 text-white">Electro</p>
+              </div>
+            </div>
+            <i
+              class="fa-regular fa-circle-play pt-2 text-xl cursor-pointer audio6"
+              style="color: #ffffff"
+            ></i>
+          </div>
+        </div>
+        <!-- menu section ends -->
+
+        <!-- songs section starts -->
+        <div
+          class="song_side w-[85%] h-[85vh]  shadow-2xl bg-no-repeat h-[100vh ] w-[100%] bg-[#0b1320]"
+        >
+          <div class="flex p-5 space-x-32">
+            <nav>
+              <ul class="text-sm text-white flex space-x-8">
+                <li>Discover</li>
+                <li>My Library</li>
+                <li>Radio</li>
+              </ul>
+            </nav>
+            <div class="search_box relative z-50">
+              <span class="absolute inset-y-0 left-0 pl-3 flex items-center">
+                <i class="fa-solid fa-search text-xl text-white cursor-pointer"></i>
+              </span>
+              <input
+                type="text"
+                class="search_input pl-12 pr-32 py-1 opacity-30 rounded-full placeholder-black"
+                placeholder="Search for songs, artists"
+              />
+            </div>
+          </div>
+          <div class="content ml-10">
+            <p class="text-2xl text-white font-semibold artist_name">Alen Walker-Fade</p>
+            <p class="text-white opacity-30 w-96 text-xs artist_desc">
+              You were the shadow of my light.Did you feel us another start You
+              Fade away afraid our aim is out of sight wanna see us Alive
+            </p>
+
+            <button
+              class="mx-auto mt-3 py-1 px-14 bg-teal-500 rounded-full font-bold text-white"
+            >
+              Play
+            </button>
+            <p class="text-white text-sm mt-3">Popular Songs</p>
+            <div class="flex mx-auto mt-2 space-x-5">
+              <div class="z-50">
+                <img src="./img/7.jpg" class="w-20 cursor-pointer audio7" />
+                <p class="text-white text-[9px] font-semibold pt-1">
+                  Agar Tum Sath Ho
+                </p>
+                <p class="text-white opacity-30 text-[8px]">Tamasha</p>
+              </div>
+              <div class="z-50">
+                <img src="./img/8.jpg" class="w-20 cursor-pointer audio8" />
+                <p class="text-white text-[9px] font-semibold pt-1">Suna Hai</p>
+                <p class="text-white opacity-30 text-[8px]">Neha Kakkar</p>
+              </div>
+              <div class="z-50">
+                <img src="./img/9.jpg" class="w-20 cursor-pointer audio9" />
+                <p class="text-white text-[9px] font-semibold pt-1">Dilbar</p>
+                <p class="text-white opacity-30 text-[8px]">Satyamev Jayate</p>
+              </div>
+              <div class="z-50">
+                <img src="./img/10.jpg" class="w-20 cursor-pointer audio10" />
+                <p class="text-white text-[9px] font-semibold pt-1">Duniya</p>
+                <p class="text-white opacity-30 text-[8px]">Luka Chuppi</p>
+              </div>
+              <div class="z-50">
+                <img src="./img/11.jpg" class="w-20 cursor-pointer audio11" />
+                <p class="text-white text-[9px] font-semibold pt-1">
+                  Lagdi Lahore Di
+                </p>
+                <p class="text-white opacity-30 text-[8px]">Street Dancer 3D</p>
+              </div>
+              <div class="z-50">
+                <img src="./img/12.jpg" class="w-20 cursor-pointer audio12" />
+                <p class="text-white text-[9px] font-semibold pt-1">
+                  Putt Jatt Da
+                </p>
+                <p class="text-white opacity-30 text-[8px]">Putt Jatt Da</p>
+              </div>
+              <div class="z-50">
+                <img src="./img/13.jpg" class="w-20 cursor-pointer audio13" />
+                <p class="text-white text-[9px] font-semibold pt-1">
+                  Baarishein
+                </p>
+                <p class="text-white opacity-30 text-[8px]">Atif Aslam</p>
+              </div>
+              <div class="z-50">
+                <img src="./img/14.jpg" class="w-20 cursor-pointer audio14" />
+                <p class="text-white text-[9px] font-semibold pt-1">Vaste</p>
+                <p class="text-white opacity-30 text-[8px]">
+                  Dhvani Bhanushali
+                </p>
+              </div>
+            </div>
+            <p class="text-white text-sm mt-2">Popular Artists</p>
+            <div class="flex mx-auto mt-1 space-x-6">
+              <div class="w-14 h-14 rounded-full overflow-hidden">
+                <img
+                  src="./img/akhil.jpg "
+                  alt="Image"
+                  class="object-cover w-full h-full cursor-pointer artist1"
+                />
+                <img src="./img/akhil-removebg-preview.png" alt="" class="img1 hidden absolute top-0 right-32 z-10 w-64" />
+              </div>
+              <div class="w-14 h-14 rounded-full overflow-hidden">
+                <img
+                  src="./img/alan.jpg "
+                  alt="Image"
+                  class="object-cover w-full h-full cursor-pointer artist2"
+                />
+                <img src="./img/alan-removebg-preview.png" alt="" class="img2 hidden absolute top-0 right-32 z-10 w-64" />
+              </div>
+              <div class="w-14 h-14 rounded-full overflow-hidden">
+                <img
+                  src="./img/arjit.jpg"
+                  alt="Image"
+                  class="object-cover w-full h-full cursor-pointer artist3"
+                />
+                <img src="./img/arjit-removebg-preview.png" alt="" class="img3 hidden absolute top-0 right-32 z-10 w-64" />
+              </div>
+              <div class="w-14 h-14 rounded-full overflow-hidden">
+                <img
+                  src="./img/dhvani.jpg "
+                  alt="Image"
+                  class="object-cover w-full h-full cursor-pointer artist4"
+                />
+                <img src="./img/dhvani-removebg-preview.png" alt="" class="img4 hidden absolute top-0 right-32 z-10 w-64" />
+              </div>
+              <div class="w-14 h-14 rounded-full overflow-hidden">
+                <img
+                  src="./img/Diljit_Dosanjh.jpg"
+                  alt="Image"
+                  class="object-cover w-full h-full cursor-pointer artist5"
+                />
+                <img src="./img/Diljit_Dosanjh-removebg-preview.png" alt="" class="img5 hidden absolute top-0 right-32 z-10 w-64" />
+              </div>
+              <div class="w-14 h-14 rounded-full overflow-hidden">
+                <img
+                  src="./img/guru.jpg"
+                  alt="Image"
+                  class="object-cover w-full h-full cursor-pointer artist6"
+                />
+                <img src="./img/guru-removebg-preview.png" alt="" class="img6 hidden absolute top-0 right-32 z-10 w-64" />
+              </div>
+              <div class="w-14 h-14 rounded-full overflow-hidden">
+                <img
+                  src="./img/honey.jpg "
+                  alt="Image"
+                  class="object-cover w-full h-full cursor-pointer artist7"
+                />
+                <img src="./img/honey-removebg-preview.png" alt="" class="img7 hidden absolute top-0 right-32 z-10 w-64" />
+              </div>
+              <div class="w-14 h-14 rounded-full overflow-hidden">
+                <img
+                  src="./img/jubin Nautiyal.jpg "
+                  alt="Image"
+                  class="object-cover w-full h-full cursor-pointer artist8"
+                />
+                <img src="./img/jubin_Nautiyal-removebg-preview.png" alt="" class="img8 hidden absolute top-0 right-32 z-10 w-64" />
+              </div>
+              <div class="w-14 h-14 rounded-full overflow-hidden">
+                <img
+                  src="./img/justin-bieber-lede.jpg"
+                  alt="Image"
+                  class="object-cover w-full h-full cursor-pointer artist9"
+                />
+                <img src="./img/justin-bieber-lede-removebg-preview.png" alt="" class="img9 hidden absolute top-0 right-32 z-10 w-64" />
+              </div>
+              <div class="w-14 h-14 rounded-full overflow-hidden">
+                <img
+                  src="./img/neha.jpg"
+                  alt="Image"
+                  class="object-cover w-full h-full cursor-pointer artist10"
+                />
+                <img src="./img/neha-removebg-preview.png" alt="" class="img10 hidden absolute top-0 right-32 z-10 w-64" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-between my-3 mx-10">
+        <img src="./img/EQ_accent.gif" class="w-10 gif hidden" />
+        <img src="./img/14.jpg" class="w-10 played_song" />
+        <div>
+          <p class="text-white text-sm played_song_name">Vaste</p>
+          <p class="text-[10px] opacity-30 text-white played_song_artist">Dhvani Bhanushali</p>
+        </div>
+        
+        <div class="space-x-5">
+          <i class="fa-solid fa-step-backward text-white text-lg cursor-pointer "></i>
+          <i class="fa-solid fa-play text-white text-lg cursor-pointer main_player"></i>
+          <i class="fa-solid fa-step-forward text-white text-lg cursor-pointer"></i>
+          <span class="text-white cursor-pointer">00:00</span>
+                  <input type="range" min="0" max="100" class=" w-[600px]">
+                  <span class="text-white cursor-pointer">03:48</span>
+        </div>
+       
+      </div>
+     
+
+    </header>
+    <script src="index.js"></script>
+  </body>
+</html>
